@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4d8c3;
+}
+
+h1 {
+    font-size: 50px; /* Задайте розмір шрифту */
+    font-weight: bold; /* Задайте товщину шрифту (наприклад, bold - жирний, normal - звичайний) */
+    font-family: 'Poppins', sans-serif; /* Опціонально: задайте стиль шрифту (наприклад, italic - курсив) */
+}
+header {
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-container {
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.photo img{
+    width: 550px; /* Задайте необхідну ширину */
+    height: 550px; /* Задайте необхідну висоту */
+    object-fit: cover;
+}
+
+.description {
+    flex-grow: 1;
+    margin-left: 150px; /* Додайте відступ від лівого боку */
+    font-size: 30px; /* Задайте розмір шрифту */
+    font-weight: normal; /* Задайте товщину шрифту (наприклад, bold - жирний, normal - звичайний) */
+    font-family: 'Poppins', sans-serif; /* Опціонально: задайте стиль шрифту (наприклад, italic - курсив) */
+    margin-top: 100px; /* Відступ зверху */
+}
+
+.recipe-section {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px; /* Відстань між колонками */
+}
+
+.recipe-column {
+    flex: 1;
+}
+
+.recipe {
+    margin-bottom: 20px; /* Збільшена відстань між блоками */
+}
+
+.recipe img {
+    width: 90%; /* Розтягнути фото на всю ширину блока */
+    height: auto; /* Автоматична висота */
+}
+
+.recipe p {
+    margin-bottom: 10px; /* Відступ між параграфами */
+}
+
+.recipe a {
+    display: block;
+    color: rgba(231, 147, 123, 0.83);
+}
+
+.recipe-title {
+    color: rgba(231, 147, 123, 0.83); /* Колір заголовка */
+    font-size: 30px;
+}
+.advertisement {
+    background-color: #f4d8c3; /* Бежевий фон */
+    padding: 20px; /* Підгонка відступів */
+}
+
+.book-image {
+    float: left; /* Розміщення зображення зліва */
+    margin-right: 20px; /* Відстань між зображенням і текстом */
+}
+
+.book-image img {
+    background-color: aqua;
+    width: 550px; /* Задайте необхідну ширину зображення книги */
+    height: auto; /* Автоматична висота */
+}
+
+.book-info h2 {
+    color: #231f20; /* Темніший колір тексту */
+    font-size: 24px; /* Розмір заголовку */
+    margin-top: 0; /* Виправлення відступів */
+}
+
+.book-info p {
+    color: #231f20; /* Темніший колір тексту */
+    font-size: 16px; /* Розмір тексту */
+    margin-top: 0; /* Виправлення відступів */
+}
+
+.newsletter {
+    /* Фонове зображення */
+    padding: 50px; /* Підгонка відступів */
+    text-align: center; /* Вирівнювання тексту по центру */
+    color: white; /* Колір тексту */
+}
+
+.newsletter h2 {
+    margin-bottom: 20px; /* Відстань між заголовком і формою */
+}
+
+.newsletter form {
+    display: inline-block; /* Розміщення форми на одному рівні з текстом */
+}
+
+.newsletter input[type="email"] {
+    padding: 10px; /* Підгонка відступів */
+    margin-right: 10px; /* Відстань між полем введення та кнопкою */
+    width: 250px; /* Ширина поля введення */
+    border: none; /* Видалення границь */
+    border-radius: 5px; /* Округлені кути */
+}
+
+.newsletter button {
+    padding: 10px 20px; /* Підгонка відступів */
+    background-color: #231f20; /* Колір кнопки */
+    color: white; /* Колір тексту кнопки */
+    border: none; /* Видалення границь */
+    border-radius: 5px; /* Округлені кути */
+    cursor: pointer; /* Зміна курсора на показчик */
+}
+
+.newsletter button:hover {
+    background-color: #382f2d; /* Колір кнопки при наведенні */
+}
+
